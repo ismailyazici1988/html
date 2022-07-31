@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+</head>
+<body>
+    <section>
+        <h1>Cat Photos</h1>
+        <p>Click here to view more <a href="https://www.pexels.com/search/cat/" target="_blank">cat photos</a></p>
+        <img src="cat1.png" alt="catphoto" width="300px">
+    </section>
+    <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <figure> 
+            <img src="lasagna.png" alt="lasagna" width="300px" height="200px">
+            <figcaption>Cats <em>love</em> lasagna</figcaption>
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+        <figure>
+            <img src="cat2.png" alt="cats" width="300px">
+            <figcaption>Cats <b>hate</b> other cats.</figcaption>
+        </figure>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <input type="radio" id="indoor" name="indoor-outdor" value="indoor" checked> Indoor
+                <input type="radio" id="outdoor" name="indoor-outdor" value="outdoor"> Outdoor
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input type="checkbox" id="loving" name="loving" value="indoor"> Loving
+                <input type="checkbox" id="lazy" name="lazy" value="outdoor" checked> Lazy
+            </fieldset>
+        </section>
+    </section>    
+</body>
+</html>
